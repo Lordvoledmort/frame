@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/css/bootstrap.min.css">
+    <style>
+        .topnav {
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            border-bottom: 1px solid red;
+            background-color: #ffffff;
+            text-align: center;
+        } 
+        .topnav a {
+            color: #333333;
+        }
+        div[class^="col"]{
+            border-right: 1px solid red;
+        }
+        div[class^="col"]:last-child {
+            border-right: none;
+        }
+        .btn.signin {
+            padding: 3px 4px;
+        }
+        .signin.btn-default {
+            background-color: red;
+            color: #ffffff;
+            border-color: transparent;
+        }
+        .signin.btn-default:active:focus {
+            background-color: red;
+            color: #ffffff;
+            border-color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="topnav hidden-sm hidden-xs">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2 quard">
+                    <i class="glyphicon glyphicon-phone-alt"></i>
+                    <a href="javascript:;">手机微金所</a>
+                    <i class="glyphicon glyphicon-menu-down"></i>
+                </div>
+                <div class="col-md-5">
+                    <i class="glyphicon glyphicon-phone"></i>
+                    <a href="javascript:;">4006-89-4006（服务时间：9:00-21:00)</a>
+                </div>
+                <div class="col-md-2">
+                    <a href="javascript:;">常见问题</a>
+                    <a href="javascript:;">财富登陆</a>
+                </div>
+                <div class="col-md-3">
+                    <a class="btn btn-default signin" href="javascript:;">免费注册</a>
+                    <a class="signup" href="javascript:;">登录</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script class="./js/jQuery.min.js"></script>
+    <script class="./lib/js/bootstrap.min.js">
+    </script>
+</body>
+</html>
